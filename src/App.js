@@ -1,14 +1,15 @@
 import React from "react";
 
-import // AboutUs,
-// Chef,
-// Contact,
-// Footer,
-// Gallery,
-// Header,
-// Intro,
-// Laurels,
-// SpecialMenu,
+import 
+AboutUs,
+Chef,
+Contact,
+Footer,
+Gallery,
+Header,
+Intro,
+Laurels,
+SpecialMenu,
 "./container";
 import { Navbar } from "./components";
 import "./App.css";
@@ -16,15 +17,15 @@ import "./App.css";
 const App = () => (
   <div>
     <Navbar />
-    {/* <Header />
+    <Header />
     <AboutUs />
     <SpecialMenu />
     <Chef />
-    <Intro /> */}
-    {/* <Laurels /> */}
-    {/* <Gallery />
+    <Intro />
+    <Laurels />
+    <Gallery />
     <Contact />
-    <Footer /> */}
+    <Footer />
   </div>
 );
 
